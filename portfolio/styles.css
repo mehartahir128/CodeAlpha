@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  /* background: linear-gradient(135deg, #f2f2f2, #e0e0e0); */
+  background: #CCCCFF;
+  color: #181717;
+  line-height: 1.6;
+  padding: 30px 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-image: linear-gradient(#4a59e0, #4f515e);
+
+  color: #fff;
+  text-align: center;
+  padding: 70px 0;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(80, 68, 190, 0.2);
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #333;
+  margin-right: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+.about p {
+  max-width: 650px;
+  font-size: 1.15em;
+  font-weight: 300;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 12px 0;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.education, .work-experience {
+  margin: 60px 0;
+}
+
+.skills {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  margin: 60px 0;
+  text-align: center;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills li {
+  background-color: #8f7cd3;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.skills li:hover {
+  background-color: #ff9900;
+}
+
+.projects {
+  margin: 60px 0;
+}
+
+.projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #000000;
+}
+
+.projects div {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(38, 51, 221, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.projects div:hover {
+  transform: translateY(-5px);
+}
+
+.projects img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.projects h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  font-weight: 500;
+  /* background-color: #4946cf; */
+
+}
+
+.projects p {
+  font-size: 1.15em;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.resume {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.resume a {
+  background-color: #4946cf;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.resume a:hover {
+  background-color: #ff9900;
+}
+
+.interests, .language {
+  margin: 50px 0;
+  text-align: center;
+  text: bold;
+}
+
+.interests ul, .language ul {
+  list-style-type: none;
+}
+
+.interests li, .language li {
+  font-size: 1.2em;
+  margin: 12px 0;
+  font-weight: 300;
+}
+
+.contect {
+  margin: 60px 0;
+  text-align: center;
+}
+.contect p {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+.contect a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.contect a:hover {
+  /* color: #ff9900; */
+  color:  #5631dd;
+}
+
+footer {
+  text-align: center;
+  margin-top: 70px;
+  padding: 20px;
+  background-color: #4a59e0;
+  background-image: linear-gradient(#4a59e0, #4f515e);
+
+  color: #fff;
+  border-radius: 10px;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+# a:hover {
+  color: #ff9900;
+}
+
+
+
+ @media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-pic {
+    margin-bottom: 20px;
+  }
+
+  .skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects h2 {
+    font-size: 2em;
+  }
+
+  .projects div {
+    padding: 20px;
+  }
+
+  .resume a {
+    padding: 12px 25px;
+  }
+} 
