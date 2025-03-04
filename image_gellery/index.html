@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Gallery Container -->
+  <div class="gallery-container">
+    <!-- Main Image Section -->
+    <div class="gallery">
+      <img id="main-image" src="ucp logo.png" alt="Gallery Image" style="height: 50%; width: 50%;">
+      <div class="nav-buttons">
+        <button class="prev" onclick="prevImage()">&#10094;</button>
+        <button class="next" onclick="nextImage()">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- Thumbnail Images Section -->
+    <div class="thumbnail-container">
+      <img class="thumbnail" src="ai image.webp" alt="Thumbnail 2" onclick="changeImage('image1.jpg')">
+      <img class="thumbnail" src="ucp logo.png" alt="Thumbnail 2" onclick="changeImage('image2.jpg')">
+      <img class="thumbnail" src="ai image.webp" alt="Thumbnail 3" onclick="changeImage('image3.jpg')">
+      <img class="thumbnail" src="ucp logo.png" alt="Thumbnail 4" onclick="changeImage('image4.jpg')">
+      <img class="thumbnail" src="ai image.webp" alt="Thumbnail 5" onclick="changeImage('image5.jpg')">
+    </div>
+  </div>
+
+  <!-- Optional Lightbox for Viewing Larger Image -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-image" src="" alt="Larger View">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
